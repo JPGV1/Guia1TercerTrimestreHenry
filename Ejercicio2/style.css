@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+div{
+    
+    font-size: 15px;
+    display: flex;
+    background: rgb(199, 198, 198);
+    justify-content: space-between;
+    padding: 40px 15px;
+    
+}
+input{
+    font-size: 20px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
